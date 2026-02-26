@@ -6,6 +6,11 @@ See what's listening on every port. Know what's safe, what's risky, and kill it 
 npx portwatch
 ```
 
+![portwatch demo](assets/demo.png)
+
+<details>
+<summary>Text version</summary>
+
 ```
 [portwatch]  14 ports listening  |  refresh 2s
   5 warnings found  |  3 sensitive
@@ -27,6 +32,8 @@ npx portwatch
 
   j/k nav  / filter  enter kill  s sort  r refresh  q quit
 ```
+
+</details>
 
 ## Install
 

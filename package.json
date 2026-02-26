@@ -4,7 +4,7 @@
   "description": "Beautiful port & process viewer for your terminal",
   "type": "module",
   "bin": {
-    "portwatch": "./dist/cli.js"
+    "portwatch": "dist/cli.js"
   },
   "files": [
     "dist"
@@ -29,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DukeDeSouth/portwatch"
+    "url": "git+https://github.com/DukeDeSouth/portwatch.git"
   },
   "engines": {
     "node": ">=18"
