@@ -1,0 +1,49 @@
+{
+  "name": "portwatch",
+  "version": "1.0.0",
+  "description": "Beautiful port & process viewer for your terminal",
+  "type": "module",
+  "bin": {
+    "portwatch": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "port",
+    "process",
+    "terminal",
+    "tui",
+    "cli",
+    "kill",
+    "lsof",
+    "network",
+    "devtools"
+  ],
+  "author": "DukeDeSouth",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DukeDeSouth/portwatch"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "ink": "^6.8.0",
+    "meow": "^14.1.0",
+    "ps-list": "^9.0.0",
+    "react": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
